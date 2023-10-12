@@ -1,0 +1,18 @@
+12.10.2023
+
+Definition Phase:
+	- What are we doing in the project? what are the real requirements?
+	- Prepare first very rough hich level planning.
+	- At the beginning a One Pager, gives the project owner the opportunity to decide if to do it or to skip it.
+	- Project goals depend on Magic Triangle: Quality, Time, Cost. When we have to make it in shorter time -> for example decrease Quality (Company have quality limits, so there normally not much "playground").
+	- Goals should not formulate the solutions should be neutral to them, like specify the type of Microcontroller used.
+	- REquirements links to textcases.
+	- REquirements engineering starts between definition and planning.
+	- REquirements Tracibility is needed to prove that you have covered all the links. To describe the costumer what it was done to achieve the requirement starting from top going to the bottom explaining what can happen and then from 
+		bottom to top explaining what was done.
+	- The costumer makes the costumer requirements and gives it to multiple suppliers. The costumer provides a quotation where he show the high level planning of the project -> The costumer choose the supplier based on the quotations.
+	
+	- Project manager defines core team to make project plan together with them, he cannot do plan alone
+	- Timeline: Initiation (Checkpoint) -> Phase Definition -> Start (Checkpoint) -> Phase Planning (inside a SW_Framework Decision Checkpoint), here we have to do also the validation plan and validation plan release. -> Project Approval (checkpoint) ..
+	... -> HW Development Phase and in parallel SW Development -> System Test Parts (Checkpoint) -> System debug Phase -> Sample available, start of Test execution (Checkpoint) -> Test execution Phase -> Release of TEst Report (Checkpoint) 
+	-> Closure Phase -> Close (checkpoint)
