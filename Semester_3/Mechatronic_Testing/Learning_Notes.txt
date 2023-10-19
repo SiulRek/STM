@@ -2,4 +2,23 @@
 - ISO 15288 System Life Cycle Processes
 	- Organizational Supporting Process
 	- Technical Management Process
-	- Contract Processes (you can parse contract with the information you need).
+	- Contract Processes (you can parse contract with the information you need) -> specification.
+	- Technical Processes
+	
+13.10
+- ISO 15288 Management:
+	- Life Cycle Model Management: Represents the capability of the company. Guidelines of best practices.
+		important three aspects: Financial feasibility, technical feasibility, Business Loss.
+	- Infrastructure Management
+	- Portfolio Management
+	- HR
+	- Quality Management
+	- Knowledge Management -> Transfering the knowledge to a system that everybody can benefit from it. It is about Lesson Learned.
+	
+	-> Memorize it with LIPPQW.
+- V - Model is a linear approach.
+	
+	
+
+
+	
