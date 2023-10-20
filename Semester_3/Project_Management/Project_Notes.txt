@@ -16,3 +16,10 @@ Definition Phase:
 	- Timeline: Initiation (Checkpoint) -> Phase Definition -> Start (Checkpoint) -> Phase Planning (inside a SW_Framework Decision Checkpoint), here we have to do also the validation plan and validation plan release. -> Project Approval (checkpoint) ..
 	... -> HW Development Phase and in parallel SW Development -> System Test Parts (Checkpoint) -> System debug Phase -> Sample available, start of Test execution (Checkpoint) -> Test execution Phase -> Release of TEst Report (Checkpoint) 
 	-> Closure Phase -> Close (checkpoint)
+	
+19.10.2023
+Project Owner: Has the money, he decides at the end of definition if its done or not.
+
+###Project related### 
+- Project Core Team: Project Manager, validation Engineer, Software engineer, chip Architect.
+	Activities of the Core Team: Define High Level Tasks, Estimate Effort, define required equipment, First risk assessment, 
