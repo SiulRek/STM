@@ -1,0 +1,32 @@
+"Cheat Notes"
+
+° Preparation: Change costumization Settings of ChatGPT to provide python only text.
+° cheater.py:
+	- Contains all the code to generate the answer from the EXAM... Folder contents to the generating of the new py file with the response.
+	- Make the file my_hash.py in the python packages falder.
+	- Make to main functions: gensalt() -> Generates complete query over all Files from the exam folder. checkpw() -> Makes error query from file in EXAM folder.
+	- this file should be imported in the bcrypt example.
+	° gensalt() return (int,int): Generates a query with the following process:
+		- Search a folder name starting with exam (If no, return 1,0 for Error 1)
+		- initialize an empty query_array = []
+		- Search the TODO.txt (If no, pass this) and stores the text in the first element of the query_array:
+		- loads the other non .txt files, each text is assigned to an element of the query array.
+		- Makes the replacements according to the rules specified above
+		- Concatenates all the element of the query_array to query_string.
+		- Add additional requirements to the query_string.
+		- Makes ChatGPT query and gets response (if failed, return 2,0 for Error 2). 
+		- Find the best way where to which module to add the text.        Where????????????? Maybe Idea appending the response as docstring to functionality module of hashlib. So when I check the functionalities I can directly see the solutions.
+		- if all successlful return 0, len(response)
+
+° Rules:
+	Help me in the following Security and Tesing in python exercise: 
+	TODO.txt
+	...
+	Load text of the other files and make rhe following replacements: 
+	#L(text) #L -> # ChatGPT the solution is restricted to the following libraries: (text) # library end. 
+	#TODO -> #TODO:  ChatGPT place a solution here. 
+	##(text) -> # ChatGPT Listen:  (text)
+	At the end:  ChatGPT provide PURE Python code in your answer,  WITHOUT description and comments.
+
+° Hide functionality for emergency:
+	
